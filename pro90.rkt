@@ -41,7 +41,7 @@
 
 
 
-(define (main [x 100] [co 0])
+(define (main [x 10000000] [co 0])
   (if (> x 1)
       (begin
         (if (= 89 (first (make-chain x)))
